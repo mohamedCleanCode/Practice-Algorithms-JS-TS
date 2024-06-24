@@ -15,6 +15,8 @@ class Stack {
     this.arr.length = this.length;
     return node;
   }
+
+  public clearStack() {}
 }
 
 const stack = new Stack();
