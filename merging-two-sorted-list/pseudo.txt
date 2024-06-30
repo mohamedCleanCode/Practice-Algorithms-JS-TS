@@ -1,0 +1,27 @@
+1- name:
+--- MergingTwoSortedLists
+
+2- assumptions:
+--- The lists are sorted
+
+3- inputs:
+--- list1: a list of integers
+--- list2: a list of integers
+
+4- process:
+--- *declare a new array
+--- *declare min variable called min = list1[0]
+--- * declare i, j = 0
+--- while(min) 
+    --- if(size of new array === sum of two arrays) return new array
+    --- if (list[i] < list2[j]) 
+    --- add list[i] to the new array
+    --- i++
+    --- min = list[i]
+    --- else
+    --- add list[j] to the new array
+    --- j++
+    --- min = list[j]
+
+
+5- output: new array
